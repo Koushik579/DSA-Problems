@@ -97,7 +97,7 @@ src/
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Koushik579/DSA-Problems
 cd DSA-Problems
 Open in IntelliJ IDEA (or any IDE)
 Run:
