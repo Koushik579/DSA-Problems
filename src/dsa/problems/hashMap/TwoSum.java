@@ -1,6 +1,5 @@
-package dsa.problems;
+package dsa.problems.hashMap;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,10 +1,10 @@
 # 🧠 DSA Problems – Java
 
-## Overview
+## 📖 Overview
 
-This repository contains my daily practice of **Data Structures and Algorithms (DSA)** problems implemented in Java.
+This repository contains my daily practice of **Data Structures and Algorithms (DSA)** implemented in Java.
 
-The goal of this repository is to build strong problem-solving skills, improve coding efficiency, and prepare for technical interviews.
+The goal is to build strong problem-solving skills, improve coding efficiency, and prepare for technical interviews through consistent practice.
 
 ---
 
@@ -14,6 +14,7 @@ The goal of this repository is to build strong problem-solving skills, improve c
 - Clean and readable Java implementations
 - Optimized approaches where possible
 - Continuous updates with new problems
+- Different problem-solving techniques (HashMap, Two Pointer, etc.)
 
 ---
 
@@ -26,19 +27,45 @@ src/
 │
 └── dsa/
 └── problems/
-├── TwoSum.java # Example problem
-└── ... # More problems will be added
+│
+├── arrays/ # Array-based problems
+│
+├── string/ # String problems
+│ └── Palindrome.java
+│
+├── hashMap/ # Hashing problems
+│ └── TwoSum.java
+│
+├── linkedList/ # Linked List problems
+│
+├── stack/ # Stack problems
+│
+├── queue/ # Queue problems
+│
+├── recursion/ # Recursion problems
+│
+└── trees/ # Tree problems
+
 ```
 
 ---
 
 ## 📌 Problems Covered
 
-| Problem Name | Approach | Status |
-|-------------|---------|--------|
-| Two Sum     | HashMap | ✅ Completed |
+| Problem Name | Category | Approach     | Status |
+|--------------|----------|--------------|--------|
+| Two Sum      | HashMap  | HashMap      | ✅     |
+| Palindrome   | String   | Two Pointer  | ✅     |
 
 *(This list will grow as more problems are added)*
+
+---
+
+## 🧠 Techniques Practiced
+
+- Hashing (HashMap)
+- Two Pointer Technique
+- Brute Force → Optimized approach thinking
 
 ---
 
@@ -54,6 +81,7 @@ src/
   - Recursion & Backtracking
   - Dynamic Programming
 - Improve time and space complexity understanding
+- Transition from brute force → optimized solutions
 
 ---
 
@@ -67,31 +95,24 @@ src/
 ## ▶️ How to Run
 
 1. Clone the repository:
+
 ```bash
 git clone <your-repo-url>
-
+cd DSA-Problems
 Open in IntelliJ IDEA (or any IDE)
-
 Run:
-
 Main.java
 📈 Progress Strategy
-
 Solve problems from platforms like:
-
 LeetCode
-
 HackerRank
-
 CodeStudio
-
 Focus on understanding logic, not just solving
-
 Revisit and optimize previous solutions
-
+Practice multiple approaches for the same problem
 🔄 Update Plan
 
-This repository will be updated regularly as I solve new problems.
+This repository will be updated regularly as I solve new problems and improve existing solutions.
 
 👤 Author
 
