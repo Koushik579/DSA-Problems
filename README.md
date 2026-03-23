@@ -31,6 +31,7 @@ src/
 ├── arrays/ # Array-based problems
 │ └── MaximumSubarray.java
 | └── Duplicate.java
+| └── ArrayProduct.java
 |
 ├── string/ # String problems
 │ └── Palindrome.java
@@ -60,6 +61,7 @@ src/
 | Palindrome             | String   | Two Pointer         | ✅     |
 | Maximum Subarray sum   | Array    | Kadane’s Algorithm  | ✅     |
 | Duplicate              | Array    | List and Sorting    | ✅     |
+| Product of Array       | Array    | Brute Force         | ✅     |
 
 *(This list will grow as more problems are added)*
 
