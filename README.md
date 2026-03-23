@@ -30,6 +30,7 @@ src/
 │
 ├── arrays/ # Array-based problems
 │ └── MaximumSubarray.java
+| └── Duplicate.java
 |
 ├── string/ # String problems
 │ └── Palindrome.java
@@ -58,6 +59,7 @@ src/
 | Two Sum                | HashMap  | HashMap             | ✅     |
 | Palindrome             | String   | Two Pointer         | ✅     |
 | Maximum Subarray sum   | Array    | Kadane’s Algorithm  | ✅     |
+| Duplicate              | Array    | List and Sorting    | ✅     |
 
 *(This list will grow as more problems are added)*
 

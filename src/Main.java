@@ -1,14 +1,13 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import dsa.problems.arrays.Duplicate;
 import dsa.problems.arrays.MaximumSubarray;
 import dsa.problems.hashMap.TwoSum;
 import dsa.problems.string.Palindrome;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
-        int[] ar = {-2,1,-3,4,-1,2,1,-5,4};
+        int[] ar = {-2,1,-3,-1,2,1,-5,4};
         TwoSum sum = new TwoSum();
 
         System.out.println("**====Two Sum====**");
@@ -26,5 +25,10 @@ public class Main {
         System.out.println("Max Subarray : "+maximumSubarray.maxSubarray(ar));
         System.out.println("**==================**");
 
+        Duplicate duplicate = new Duplicate();
+        System.out.println("**====Duplicate Check====**");
+        System.out.println("Result : "+duplicate.isDuplicateBySorting(ar));
+        System.out.println("Result : "+duplicate.isDuplicateWithList(ar));
+        System.out.println("**=======================**");
     }
 }
