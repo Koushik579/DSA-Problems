@@ -29,7 +29,8 @@ src/
 └── problems/
 │
 ├── arrays/ # Array-based problems
-│
+│ └── MaximumSubarray.java
+|
 ├── string/ # String problems
 │ └── Palindrome.java
 │
@@ -52,10 +53,11 @@ src/
 
 ## 📌 Problems Covered
 
-| Problem Name | Category | Approach     | Status |
-|--------------|----------|--------------|--------|
-| Two Sum      | HashMap  | HashMap      | ✅     |
-| Palindrome   | String   | Two Pointer  | ✅     |
+| Problem Name           | Category | Approach            | Status |
+|------------------------|----------|---------------------|--------|
+| Two Sum                | HashMap  | HashMap             | ✅     |
+| Palindrome             | String   | Two Pointer         | ✅     |
+| Maximum Subarray sum   | Array    | Kadane’s Algorithm  | ✅     |
 
 *(This list will grow as more problems are added)*
 
@@ -66,7 +68,7 @@ src/
 - Hashing (HashMap)
 - Two Pointer Technique
 - Brute Force → Optimized approach thinking
-
+- Kadane’s Algorithm
 ---
 
 ## 🎯 Goals
