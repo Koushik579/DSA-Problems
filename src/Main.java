@@ -10,11 +10,11 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] ar = {1, 2, 3, 4};
+        int[] ar = { 2, 4, 3, 7, 5};
         TwoSum sum = new TwoSum();
 
         System.out.println("**====Two Sum====**");
-        //System.out.println("Result : "+Arrays.toString(sum.twoSum(ar,9)));
+        System.out.println("Result : "+Arrays.toString(sum.twoSum(ar,9)));
         System.out.println("**===============**");
 
         Palindrome palindrome = new Palindrome();

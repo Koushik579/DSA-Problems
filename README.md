@@ -32,6 +32,7 @@ src/
 │ └── MaximumSubarray.java
 | └── Duplicate.java
 | └── ArrayProduct.java
+| └── TwoSum.java
 |
 ├── string/ # String problems
 │ └── Palindrome.java
@@ -57,6 +58,7 @@ src/
 
 | Problem Name           | Category | Approach            | Status |
 |------------------------|----------|---------------------|--------|
+| Two Sum                | Array    | Two Pointer         | ✅     |
 | Two Sum                | HashMap  | HashMap             | ✅     |
 | Palindrome             | String   | Two Pointer         | ✅     |
 | Maximum Subarray sum   | Array    | Kadane’s Algorithm  | ✅     |
