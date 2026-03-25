@@ -33,12 +33,13 @@ src/
 | └── Duplicate.java
 | └── ArrayProduct.java
 | └── TwoSum.java
+| └── BuyStock.java
 |
 ├── string/ # String problems
 │ └── Palindrome.java
 │
 ├── hashMap/ # Hashing problems
-│ └── TwoSum.java
+│ └── TwoSumII.java
 │
 ├── linkedList/ # Linked List problems
 │
@@ -56,14 +57,15 @@ src/
 
 ## 📌 Problems Covered
 
-| Problem Name           | Category | Approach            | Status |
-|------------------------|----------|---------------------|--------|
-| Two Sum                | Array    | Two Pointer         | ✅     |
-| Two Sum                | HashMap  | HashMap             | ✅     |
-| Palindrome             | String   | Two Pointer         | ✅     |
-| Maximum Subarray sum   | Array    | Kadane’s Algorithm  | ✅     |
-| Duplicate              | Array    | List and Sorting    | ✅     |
-| Product of Array       | Array    | Brute Force         | ✅     |
+| Problem Name                          | Category | Approach                  | Status |
+|---------------------------------------|----------|---------------------------|--------|
+| Two Sum                               | Array    | Two Pointer               | ✅     |
+| Two Sum                               | HashMap  | HashMap                   | ✅     |
+| Palindrome                            | String   | Two Pointer               | ✅     |
+| Maximum Subarray sum                  | Array    | Kadane’s Algorithm        | ✅     |
+| Duplicate                             | Array    | List and Sorting          | ✅     |
+| Product of Array                      | Array    | Brute Force               | ✅     |
+| Best Time to Buy and Sell Stock       | Array    | Single pass optimization  | ✅     |
 
 *(This list will grow as more problems are added)*
 
