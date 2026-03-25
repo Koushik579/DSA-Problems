@@ -1,6 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import dsa.problems.arrays.ArrayProduct;
+import dsa.problems.arrays.BuyStock;
 import dsa.problems.arrays.Duplicate;
 import dsa.problems.arrays.MaximumSubarray;
 import dsa.problems.hashMap.TwoSum;
@@ -37,6 +38,12 @@ public class Main {
         ArrayProduct arrayProduct = new ArrayProduct();
         System.out.println("**====Product of Array====**");
         System.out.println("Result : "+ Arrays.toString(arrayProduct.product(ar)));
+        System.out.println("**========================**");
+
+        int[] ar2 = {7, 1, 5, 3, 6, 4};
+        BuyStock buyStock = new BuyStock();
+        System.out.println("**====Product of Array====**");
+        System.out.println("Result : "+ buyStock.buyTheStock(ar2));
         System.out.println("**========================**");
     }
 }
