@@ -41,6 +41,7 @@ src/
 │
 ├── hashMap/ # Hashing problems
 │ └── TwoSumII.java
+│ └── ContainDuplicateII.java(HashMap-based index tracking)
 │
 ├── linkedList/ # Linked List problems
 │
@@ -68,6 +69,7 @@ src/
 | Product of Array                      | Array    | Brute Force               | ✅     |
 | Best Time to Buy and Sell Stock       | Array    | Single pass optimization  | ✅     |
 | Longest Common Prefix                 | String   | Horizontal scanning       | ✅     |
+| Contain Duplicate II                  | HashMap  | index tracking            | ✅     |
 
 *(This list will grow as more problems are added)*
 
