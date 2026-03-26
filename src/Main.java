@@ -4,6 +4,7 @@ import dsa.problems.arrays.ArrayProduct;
 import dsa.problems.arrays.BuyStock;
 import dsa.problems.arrays.Duplicate;
 import dsa.problems.arrays.MaximumSubarray;
+import dsa.problems.hashMap.ContainDuplicateII;
 import dsa.problems.hashMap.TwoSum;
 import dsa.problems.string.LongestPrefix;
 import dsa.problems.string.Palindrome;
@@ -53,5 +54,10 @@ public class Main {
         System.out.println("Result : "+ longestPrefix.findLongestPrefix(str));
         System.out.println("**==========================**");
 
+        int[] ar3 = {1, 2, 3, 1};
+        ContainDuplicateII containDuplicateII = new ContainDuplicateII();
+        System.out.println("**====Contain Duplicate II====**");
+        System.out.println("Result : "+ containDuplicateII.checkDuplicate(ar3,2));
+        System.out.println("**==========================**");
     }
 }
