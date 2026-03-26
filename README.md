@@ -37,6 +37,7 @@ src/
 |
 ├── string/ # String problems
 │ └── Palindrome.java
+│ └── LongestPrefix.java
 │
 ├── hashMap/ # Hashing problems
 │ └── TwoSumII.java
@@ -66,6 +67,7 @@ src/
 | Duplicate                             | Array    | List and Sorting          | ✅     |
 | Product of Array                      | Array    | Brute Force               | ✅     |
 | Best Time to Buy and Sell Stock       | Array    | Single pass optimization  | ✅     |
+| Longest Common Prefix                 | String   | Horizontal scanning       | ✅     |
 
 *(This list will grow as more problems are added)*
 
@@ -77,6 +79,8 @@ src/
 - Two Pointer Technique
 - Brute Force → Optimized approach thinking
 - Kadane’s Algorithm
+- Horizontal scanning
+- Single pass optimization
 ---
 
 ## 🎯 Goals
