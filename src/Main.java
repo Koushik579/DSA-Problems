@@ -5,6 +5,7 @@ import dsa.problems.arrays.BuyStock;
 import dsa.problems.arrays.Duplicate;
 import dsa.problems.arrays.MaximumSubarray;
 import dsa.problems.hashMap.ContainDuplicateII;
+import dsa.problems.hashMap.FirstUniqueCharacter;
 import dsa.problems.hashMap.TwoSum;
 import dsa.problems.string.LongestPrefix;
 import dsa.problems.string.Palindrome;
@@ -59,5 +60,12 @@ public class Main {
         System.out.println("**====Contain Duplicate II====**");
         System.out.println("Result : "+ containDuplicateII.checkDuplicate(ar3,2));
         System.out.println("**==========================**");
+
+        String uniqueChar = "eeetcodeL";
+        FirstUniqueCharacter firstUniqueCharacter = new FirstUniqueCharacter();
+        System.out.println("**====First Unique Character====**");
+        System.out.println("Result : "+ firstUniqueCharacter.findCharacter(uniqueChar));
+        System.out.println("**==============================**");
+
     }
 }
