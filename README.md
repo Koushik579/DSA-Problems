@@ -42,6 +42,7 @@ src/
 ├── hashMap/ # Hashing problems
 │ └── TwoSumII.java
 │ └── ContainDuplicateII.java(HashMap-based index tracking)
+│ └── FirstUniqueCharacter.java
 │
 ├── linkedList/ # Linked List problems
 │
@@ -62,7 +63,7 @@ src/
 | Problem Name                          | Category | Approach                  | Status |
 |---------------------------------------|----------|---------------------------|--------|
 | Two Sum                               | Array    | Two Pointer               | ✅     |
-| Two Sum                               | HashMap  | HashMap                   | ✅     |
+| Two Sum                               | HashMap  | Hashing                   | ✅     |
 | Palindrome                            | String   | Two Pointer               | ✅     |
 | Maximum Subarray sum                  | Array    | Kadane’s Algorithm        | ✅     |
 | Duplicate                             | Array    | List and Sorting          | ✅     |
@@ -70,6 +71,7 @@ src/
 | Best Time to Buy and Sell Stock       | Array    | Single pass optimization  | ✅     |
 | Longest Common Prefix                 | String   | Horizontal scanning       | ✅     |
 | Contain Duplicate II                  | HashMap  | index tracking            | ✅     |
+| First Unique Character                | HashMap  | Hashing                   | ✅     |
 
 *(This list will grow as more problems are added)*
 
