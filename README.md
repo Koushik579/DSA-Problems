@@ -40,6 +40,7 @@ src/
 │ └── Palindrome.java
 │ └── LongestPrefix.java
 │ └── ImplementStrStr.java
+│ └── Anagram.java
 │
 ├── hashMap/ # Hashing problems
 │ └── TwoSumII.java
@@ -65,7 +66,7 @@ src/
 | Problem Name                          | Category | Approach                  | Status |
 |---------------------------------------|----------|---------------------------|--------|
 | Two Sum                               | Array    | Two Pointer               | ✅     |
-| Two Sum                               | HashMap  | Hashing                   | ✅     |
+| Two Sum II                            | HashMap  | Hashing                   | ✅     |
 | Palindrome                            | String   | Two Pointer               | ✅     |
 | Maximum Subarray sum                  | Array    | Kadane’s Algorithm        | ✅     |
 | Duplicate                             | Array    | List and Sorting          | ✅     |
@@ -76,6 +77,7 @@ src/
 | First Unique Character                | HashMap  | Hashing                   | ✅     |
 | Implement strStr()                    | String   | Brute Force               | ✅     |
 | Container with most water             | Array    | Two Pointer               | ✅     |
+| Check anagram                         | String   | Hashing frequency         | ✅     |
 
 *(This list will grow as more problems are added)*
 

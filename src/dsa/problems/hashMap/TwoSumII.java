@@ -3,7 +3,7 @@ package dsa.problems.hashMap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class TwoSumII {
 
     public int[] twoSum(int[] ar , int target){
         Map<Integer,Integer> digits = new HashMap<>();
