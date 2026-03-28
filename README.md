@@ -34,6 +34,7 @@ src/
 | └── ArrayProduct.java
 | └── TwoSum.java
 | └── BuyStock.java
+| └── MostWater.java
 |
 ├── string/ # String problems
 │ └── Palindrome.java
@@ -74,6 +75,7 @@ src/
 | Contain Duplicate II                  | HashMap  | index tracking            | ✅     |
 | First Unique Character                | HashMap  | Hashing                   | ✅     |
 | Implement strStr()                    | String   | Brute Force               | ✅     |
+| Container with most water             | Array    | Two Pointer               | ✅     |
 
 *(This list will grow as more problems are added)*
 

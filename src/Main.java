@@ -1,9 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import dsa.problems.arrays.ArrayProduct;
-import dsa.problems.arrays.BuyStock;
-import dsa.problems.arrays.Duplicate;
-import dsa.problems.arrays.MaximumSubarray;
+import dsa.problems.arrays.*;
 import dsa.problems.hashMap.ContainDuplicateII;
 import dsa.problems.hashMap.FirstUniqueCharacter;
 import dsa.problems.hashMap.TwoSum;
@@ -72,5 +69,11 @@ public class Main {
         System.out.println("**====Implement Str Str====**");
         System.out.println("Result : "+ implementStrStr.findSubstring(uniqueChar,"code"));
         System.out.println("**==============================**");
+
+        int[] water = {1,8,6,2,5,4,8,3,7};
+        MostWater mostWater = new MostWater();
+        System.out.println("**====Most Water in container====**");
+        System.out.println("Result : "+ mostWater.mostWater(water));
+        System.out.println("**===============================**");
     }
 }
