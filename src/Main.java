@@ -7,6 +7,7 @@ import dsa.problems.arrays.MaximumSubarray;
 import dsa.problems.hashMap.ContainDuplicateII;
 import dsa.problems.hashMap.FirstUniqueCharacter;
 import dsa.problems.hashMap.TwoSum;
+import dsa.problems.string.ImplementStrStr;
 import dsa.problems.string.LongestPrefix;
 import dsa.problems.string.Palindrome;
 
@@ -61,11 +62,15 @@ public class Main {
         System.out.println("Result : "+ containDuplicateII.checkDuplicate(ar3,2));
         System.out.println("**==========================**");
 
-        String uniqueChar = "eeetcodeL";
+        String uniqueChar = "Leetcode";
         FirstUniqueCharacter firstUniqueCharacter = new FirstUniqueCharacter();
         System.out.println("**====First Unique Character====**");
         System.out.println("Result : "+ firstUniqueCharacter.findCharacter(uniqueChar));
         System.out.println("**==============================**");
 
+        ImplementStrStr implementStrStr = new ImplementStrStr();
+        System.out.println("**====Implement Str Str====**");
+        System.out.println("Result : "+ implementStrStr.findSubstring(uniqueChar,"code"));
+        System.out.println("**==============================**");
     }
 }
