@@ -38,6 +38,7 @@ src/
 ├── string/ # String problems
 │ └── Palindrome.java
 │ └── LongestPrefix.java
+│ └── ImplementStrStr.java
 │
 ├── hashMap/ # Hashing problems
 │ └── TwoSumII.java
@@ -72,6 +73,7 @@ src/
 | Longest Common Prefix                 | String   | Horizontal scanning       | ✅     |
 | Contain Duplicate II                  | HashMap  | index tracking            | ✅     |
 | First Unique Character                | HashMap  | Hashing                   | ✅     |
+| Implement strStr()                    | String   | Brute Force               | ✅     |
 
 *(This list will grow as more problems are added)*
 
