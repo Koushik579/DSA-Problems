@@ -3,6 +3,7 @@
 import dsa.problems.arrays.*;
 import dsa.problems.hashMap.ContainDuplicateII;
 import dsa.problems.hashMap.FirstUniqueCharacter;
+import dsa.problems.hashMap.IntersectionII;
 import dsa.problems.hashMap.TwoSumII;
 import dsa.problems.string.Anagram;
 import dsa.problems.string.ImplementStrStr;
@@ -79,6 +80,11 @@ public class Main {
         System.out.println("**====Check Anagram====**");
         System.out.println("Result : "+ anagram.checkAnagram("ana","naa"));
         System.out.println("**=====================**");
+
+        IntersectionII intersectionII = new IntersectionII();
+        System.out.println("**====Array Intersection II====**");
+        System.out.println("Result : "+ intersectionII.findIntersection(new int[]{4,9,5},new int[]{9,4,9,5,8,4}));
+        System.out.println("**=============================**");
 
     }
 }

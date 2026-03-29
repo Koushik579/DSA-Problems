@@ -46,6 +46,7 @@ src/
 │ └── TwoSumII.java
 │ └── ContainDuplicateII.java(HashMap-based index tracking)
 │ └── FirstUniqueCharacter.java
+│ └── IntersectionII.java
 │
 ├── linkedList/ # Linked List problems
 │
@@ -78,6 +79,7 @@ src/
 | Implement strStr()                    | String   | Brute Force               | ✅     |
 | Container with most water             | Array    | Two Pointer               | ✅     |
 | Check anagram                         | String   | Hashing frequency         | ✅     |
+| Interrsection Of ArrayII              | HashMap  | Hashing frequency         | ✅     |
 
 *(This list will grow as more problems are added)*
 
