@@ -5,19 +5,16 @@ import dsa.problems.hashMap.ContainDuplicateII;
 import dsa.problems.hashMap.FirstUniqueCharacter;
 import dsa.problems.hashMap.IntersectionII;
 import dsa.problems.hashMap.TwoSumII;
-import dsa.problems.string.Anagram;
-import dsa.problems.string.ImplementStrStr;
-import dsa.problems.string.LongestPrefix;
-import dsa.problems.string.Palindrome;
+import dsa.problems.string.*;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        /*TwoSum sum = new TwoSum();
-        System.out.println("**====Two Sum====**");
-        System.out.println("Result : "+Arrays.toString(sum.twoSum(new int[] {2, 4, 3, 7, 5},9)));
-        System.out.println("**===============**");*/
+        TwoSum sum = new TwoSum();
+        System.out.println("**====Two Sum for Sorted Array====**");
+        System.out.println("Result : "+Arrays.toString(sum.twoSum(new int[] {2, 3, 4, 5, 7},9)));
+        System.out.println("**===============**");
 
         TwoSumII sumII = new TwoSumII();
         System.out.println("**====Two Sum II====**");
@@ -85,6 +82,11 @@ public class Main {
         System.out.println("**====Array Intersection II====**");
         System.out.println("Result : "+ intersectionII.findIntersection(new int[]{4,9,5},new int[]{9,4,9,5,8,4}));
         System.out.println("**=============================**");
+
+        LongestSubstring longestSubstring = new LongestSubstring();
+        System.out.println("**====Longest Substring Without Repeating Characters====**");
+        System.out.println("Result : "+ longestSubstring.findLengthOfLongestSubstring("pwwakew"));
+        System.out.println("**======================================================**");
 
     }
 }

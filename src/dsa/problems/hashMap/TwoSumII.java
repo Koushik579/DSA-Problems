@@ -7,7 +7,6 @@ public class TwoSumII {
 
     public int[] twoSum(int[] ar , int target){
         Map<Integer,Integer> digits = new HashMap<>();
-        int[] result = new int[2];
         for(int i = 0; i < ar.length; i ++){
             int reqTarget = target - ar[i];
             if(digits.containsKey(reqTarget)){
