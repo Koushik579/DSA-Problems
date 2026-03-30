@@ -21,4 +21,16 @@ public class LongestSubstring {
         return len;
     }
 
+    public int optimisedLongestSubstring(String str){
+        int[] map = new int[126];
+        int start = 0;
+        int maxLen = 0;
+        for(int i = 0; i < str.length(); i++ ){
+            start = Math.max(start,map[str.charAt(i)]);
+            maxLen = Math.max(maxLen,i-start+1);
+            map[str.charAt(i)] = i+1;
+        }
+        return maxLen;
+    }
+
 }

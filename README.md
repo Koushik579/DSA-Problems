@@ -41,6 +41,8 @@ src/
 │ └── LongestPrefix.java
 │ └── ImplementStrStr.java
 │ └── Anagram.java
+│ └── LongestSubstring.java
+│ └── LongestRepeatingCharacter.java
 │
 ├── hashMap/ # Hashing problems
 │ └── TwoSumII.java
@@ -80,6 +82,8 @@ src/
 | Container with most water             | Array    | Two Pointer               | ✅     |
 | Check anagram                         | String   | Hashing frequency         | ✅     |
 | Interrsection Of ArrayII              | HashMap  | Hashing frequency         | ✅     |
+| Longest Substring Without Repeat      | String   | Sliding Window            | ✅     |
+| Longest Reapeating Character          | String   | Sliding Window            | ✅     |
 
 *(This list will grow as more problems are added)*
 

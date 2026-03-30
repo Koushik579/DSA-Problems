@@ -1,10 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import dsa.problems.arrays.*;
-import dsa.problems.hashMap.ContainDuplicateII;
-import dsa.problems.hashMap.FirstUniqueCharacter;
-import dsa.problems.hashMap.IntersectionII;
-import dsa.problems.hashMap.TwoSumII;
+import dsa.problems.hashMap.*;
 import dsa.problems.string.*;
 
 import java.util.Arrays;
@@ -85,7 +82,17 @@ public class Main {
 
         LongestSubstring longestSubstring = new LongestSubstring();
         System.out.println("**====Longest Substring Without Repeating Characters====**");
-        System.out.println("Result : "+ longestSubstring.findLengthOfLongestSubstring("pwwakew"));
+        System.out.println("Result : "+ longestSubstring.findLengthOfLongestSubstring("pjwakew"));
+        System.out.println("**======================================================**");
+
+        /*SubArraySum subArraySum = new SubArraySum();
+        System.out.println("**====Subarray Sum Equals K====**");
+        System.out.println("Result : "+ subArraySum.sumArray(new int[]{1,-1,1,1},2));
+        System.out.println("**======================================================**");*/
+
+        LongestRepeatingCharacter longestRepeatingCharacter = new LongestRepeatingCharacter();
+        System.out.println("**====Longest Repeating Character====**");
+        System.out.println("Result : "+ longestRepeatingCharacter.longestRepeat("AABAABA",2));
         System.out.println("**======================================================**");
 
     }
