@@ -1,15 +1,12 @@
 package dsa.problems.recursion;
 
 public class Factorial {
-    public void factorialOfNumber(int num,int initial){
-        if(initial == num){
-            System.out.print(initial);
-            System.out.println();
-            return;
+    public int factorialOfNumber(int num){
+        if(num == 1){
+            System.out.print(num + " : ");
+            return 1;
         }
-        if (initial < num){
-            System.out.print(initial+" ");
-            factorialOfNumber(num,initial + 1);
-        }
+        System.out.print(num + " * ");
+        return num * factorialOfNumber(num - 1);
     }
 }

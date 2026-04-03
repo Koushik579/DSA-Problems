@@ -99,9 +99,9 @@ public class Main {
 
         Factorial factorial = new Factorial();
         System.out.println("**====Factorial Using Recursion====**");
-        int num = 7;
-        System.out.print("Factorial of "+num+" : ");
-        factorial.factorialOfNumber(num,1);
+        int num = 15;
+        System.out.println("Factorial of "+num+" :-- ");
+        System.out.println(factorial.factorialOfNumber(num));
         System.out.println("**======================================================**");
 
         Fibonacci fibonacci = new Fibonacci();
