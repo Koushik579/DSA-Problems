@@ -29,25 +29,25 @@ src/
 └── problems/
 │
 ├── arrays/ # Array-based problems
-│ └── MaximumSubarray.java
-| └── Duplicate.java
-| └── ArrayProduct.java
-| └── TwoSum.java
-| └── BuyStock.java
+│ ├── MaximumSubarray.java
+| ├── Duplicate.java
+| ├── ArrayProduct.java
+| ├── TwoSum.java
+| ├── BuyStock.java
 | └── MostWater.java
 |
 ├── string/ # String problems
-│ └── Palindrome.java
-│ └── LongestPrefix.java
+│ ├── Palindrome.java
+│ ├── LongestPrefix.java
 │ └── ImplementStrStr.java
-│ └── Anagram.java
-│ └── LongestSubstring.java
+│ ├── Anagram.java
+│ ├── LongestSubstring.java
 │ └── LongestRepeatingCharacter.java
 │
 ├── hashMap/ # Hashing problems
-│ └── TwoSumII.java
-│ └── ContainDuplicateII.java(HashMap-based index tracking)
-│ └── FirstUniqueCharacter.java
+│ ├── TwoSumII.java
+│ ├── ContainDuplicateII.java(HashMap-based index tracking)
+│ ├── FirstUniqueCharacter.java
 │ └── IntersectionII.java
 │
 ├── linkedList/ # Linked List problems
@@ -57,6 +57,7 @@ src/
 ├── queue/ # Queue problems
 │
 ├── recursion/ # Recursion problems
+│ └── Factorial.java
 │
 └── trees/ # Tree problems
 
@@ -66,24 +67,25 @@ src/
 
 ## 📌 Problems Covered
 
-| Problem Name                          | Category | Approach                  | Status |
-|---------------------------------------|----------|---------------------------|--------|
-| Two Sum                               | Array    | Two Pointer               | ✅     |
-| Two Sum II                            | HashMap  | Hashing                   | ✅     |
-| Palindrome                            | String   | Two Pointer               | ✅     |
-| Maximum Subarray sum                  | Array    | Kadane’s Algorithm        | ✅     |
-| Duplicate                             | Array    | List and Sorting          | ✅     |
-| Product of Array                      | Array    | Brute Force               | ✅     |
-| Best Time to Buy and Sell Stock       | Array    | Single pass optimization  | ✅     |
-| Longest Common Prefix                 | String   | Horizontal scanning       | ✅     |
-| Contain Duplicate II                  | HashMap  | index tracking            | ✅     |
-| First Unique Character                | HashMap  | Hashing                   | ✅     |
-| Implement strStr()                    | String   | Brute Force               | ✅     |
-| Container with most water             | Array    | Two Pointer               | ✅     |
-| Check anagram                         | String   | Hashing frequency         | ✅     |
-| Interrsection Of ArrayII              | HashMap  | Hashing frequency         | ✅     |
-| Longest Substring Without Repeat      | String   | Sliding Window            | ✅     |
-| Longest Reapeating Character          | String   | Sliding Window            | ✅     |
+| Problem Name                          | Category    | Approach                  | Status |
+|---------------------------------------|-------------|---------------------------|--------|
+| Two Sum                               | Array       | Two Pointer               | ✅     |
+| Two Sum II                            | HashMap     | Hashing                   | ✅     |
+| Palindrome                            | String      | Two Pointer               | ✅     |
+| Maximum Subarray sum                  | Array       | Kadane’s Algorithm        | ✅     |
+| Duplicate                             | Array       | List and Sorting          | ✅     |
+| Product of Array                      | Array       | Brute Force               | ✅     |
+| Best Time to Buy and Sell Stock       | Array       | Single pass optimization  | ✅     |
+| Longest Common Prefix                 | String      | Horizontal scanning       | ✅     |
+| Contain Duplicate II                  | HashMap     | index tracking            | ✅     |
+| First Unique Character                | HashMap     | Hashing                   | ✅     |
+| Implement strStr()                    | String      | Brute Force               | ✅     |
+| Container with most water             | Array       | Two Pointer               | ✅     |
+| Check anagram                         | String      | Hashing frequency         | ✅     |
+| Interrsection Of ArrayII              | HashMap     | Hashing frequency         | ✅     |
+| Longest Substring Without Repeat      | String      | Sliding Window            | ✅     |
+| Longest Reapeating Character          | String      | Sliding Window            | ✅     |
+| Recursion                             | Recursion   | Recursion                 | ✅     |
 
 *(This list will grow as more problems are added)*
 

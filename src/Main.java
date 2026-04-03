@@ -2,6 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 import dsa.problems.arrays.*;
 import dsa.problems.hashMap.*;
+import dsa.problems.recursion.Factorial;
 import dsa.problems.string.*;
 
 import java.util.Arrays;
@@ -93,6 +94,13 @@ public class Main {
         LongestRepeatingCharacter longestRepeatingCharacter = new LongestRepeatingCharacter();
         System.out.println("**====Longest Repeating Character====**");
         System.out.println("Result : "+ longestRepeatingCharacter.longestRepeat("AABAABA",2));
+        System.out.println("**======================================================**");
+
+        Factorial factorial = new Factorial();
+        System.out.println("**====Factorial Using Recursion====**");
+        int num = 5;
+        System.out.print("Factorial of "+num+" : ");
+        factorial.factorialOfNumber(num,1);
         System.out.println("**======================================================**");
 
     }
