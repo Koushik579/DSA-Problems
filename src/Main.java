@@ -4,6 +4,7 @@ import dsa.problems.arrays.*;
 import dsa.problems.hashMap.*;
 import dsa.problems.recursion.Factorial;
 import dsa.problems.recursion.Fibonacci;
+import dsa.problems.set.HappyNumber;
 import dsa.problems.string.*;
 
 import java.util.Arrays;
@@ -107,6 +108,11 @@ public class Main {
         Fibonacci fibonacci = new Fibonacci();
         System.out.println("**====Fibonacci Using Recursion====**");
         System.out.println("Fibonacci of "+num+" : " + fibonacci.findFibonacci(num));
+        System.out.println("**======================================================**");
+
+        HappyNumber happyNumber = new HappyNumber();
+        System.out.println("**====Happy Number====**");
+        System.out.println("Result : "+happyNumber.isHappyNumber(19));
         System.out.println("**======================================================**");
 
     }
