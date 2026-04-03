@@ -34,6 +34,7 @@ src/
 | ├── ArrayProduct.java
 | ├── TwoSum.java
 | ├── BuyStock.java
+| ├── MedianOfTwoSortedArray.java
 | └── MostWater.java
 |
 ├── string/ # String problems
@@ -86,6 +87,7 @@ src/
 | Longest Substring Without Repeat      | String      | Sliding Window            | ✅     |
 | Longest Reapeating Character          | String      | Sliding Window            | ✅     |
 | Recursion                             | Recursion   | Recursion                 | ✅     |
+| Median of Two Sorted Arrays           | Array       | Binary Search             | ✅     |
 
 *(This list will grow as more problems are added)*
 
@@ -99,6 +101,7 @@ src/
 - Kadane’s Algorithm
 - Horizontal scanning
 - Single pass optimization
+- Binary Search
 ---
 
 ## 🎯 Goals
