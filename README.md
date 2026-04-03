@@ -58,6 +58,7 @@ src/
 ├── queue/ # Queue problems
 │
 ├── recursion/ # Recursion problems
+│ ├── Fibonacci.java
 │ └── Factorial.java
 │
 └── trees/ # Tree problems
@@ -88,6 +89,7 @@ src/
 | Longest Reapeating Character          | String      | Sliding Window            | ✅     |
 | Recursion                             | Recursion   | Recursion                 | ✅     |
 | Median of Two Sorted Arrays           | Array       | Binary Search             | ✅     |
+| Fibonacci                             | Recursion   | Recursion                 | ✅     |
 
 *(This list will grow as more problems are added)*
 
@@ -102,6 +104,7 @@ src/
 - Horizontal scanning
 - Single pass optimization
 - Binary Search
+- Recursion
 ---
 
 ## 🎯 Goals

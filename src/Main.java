@@ -3,6 +3,7 @@
 import dsa.problems.arrays.*;
 import dsa.problems.hashMap.*;
 import dsa.problems.recursion.Factorial;
+import dsa.problems.recursion.Fibonacci;
 import dsa.problems.string.*;
 
 import java.util.Arrays;
@@ -98,9 +99,14 @@ public class Main {
 
         Factorial factorial = new Factorial();
         System.out.println("**====Factorial Using Recursion====**");
-        int num = 5;
+        int num = 7;
         System.out.print("Factorial of "+num+" : ");
         factorial.factorialOfNumber(num,1);
+        System.out.println("**======================================================**");
+
+        Fibonacci fibonacci = new Fibonacci();
+        System.out.println("**====Fibonacci Using Recursion====**");
+        System.out.println("Fibonacci of "+num+" : " + fibonacci.findFibonacci(num));
         System.out.println("**======================================================**");
 
     }
