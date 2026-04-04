@@ -115,5 +115,10 @@ public class Main {
         System.out.println("Result : "+happyNumber.isHappyNumber(19));
         System.out.println("**======================================================**");
 
+        TwoDuplicates twoDuplicates = new TwoDuplicates();
+        System.out.println("**====Two Duplicate====**");
+        System.out.println("Result : "+twoDuplicates.findNewLength(new int[]{0, 0, 1, 1, 1, 1, 2, 3, 3}));
+        System.out.println("**======================================================**");
+
     }
 }

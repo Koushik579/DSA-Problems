@@ -35,6 +35,7 @@ src/
 | ├── TwoSum.java
 | ├── BuyStock.java
 | ├── MedianOfTwoSortedArray.java
+| ├── TwoDuplicate.java
 | └── MostWater.java
 |
 ├── string/ # String problems
@@ -72,27 +73,28 @@ src/
 
 ## 📌 Problems Covered
 
-| Problem Name                          | Category    | Approach                  | Status |
-|---------------------------------------|-------------|---------------------------|--------|
-| Two Sum                               | Array       | Two Pointer               | ✅     |
-| Two Sum II                            | HashMap     | Hashing                   | ✅     |
-| Palindrome                            | String      | Two Pointer               | ✅     |
-| Maximum Subarray sum                  | Array       | Kadane’s Algorithm        | ✅     |
-| Duplicate                             | Array       | List and Sorting          | ✅     |
-| Product of Array                      | Array       | Brute Force               | ✅     |
-| Best Time to Buy and Sell Stock       | Array       | Single pass optimization  | ✅     |
-| Longest Common Prefix                 | String      | Horizontal scanning       | ✅     |
-| Contain Duplicate II                  | HashMap     | index tracking            | ✅     |
-| First Unique Character                | HashMap     | Hashing                   | ✅     |
-| Implement strStr()                    | String      | Brute Force               | ✅     |
-| Container with most water             | Array       | Two Pointer               | ✅     |
-| Check anagram                         | String      | Hashing frequency         | ✅     |
-| Interrsection Of ArrayII              | HashMap     | Hashing frequency         | ✅     |
-| Longest Substring Without Repeat      | String      | Sliding Window            | ✅     |
-| Longest Reapeating Character          | String      | Sliding Window            | ✅     |
-| Recursion                             | Recursion   | Recursion                 | ✅     |
-| Median of Two Sorted Arrays           | Array       | Binary Search             | ✅     |
-| Fibonacci                             | Recursion   | Recursion                 | ✅     |
+| Problem Name                            | Category    | Approach                  | Status |
+|-----------------------------------------|-------------|---------------------------|--------|
+| Two Sum                                 | Array       | Two Pointer               | ✅     |
+| Two Sum II                              | HashMap     | Hashing                   | ✅     |
+| Palindrome                              | String      | Two Pointer               | ✅     |
+| Maximum Subarray sum                    | Array       | Kadane’s Algorithm        | ✅     |
+| Duplicate                               | Array       | List and Sorting          | ✅     |
+| Product of Array                        | Array       | Brute Force               | ✅     |
+| Best Time to Buy and Sell Stock         | Array       | Single pass optimization  | ✅     |
+| Longest Common Prefix                   | String      | Horizontal scanning       | ✅     |
+| Contain Duplicate II                    | HashMap     | index tracking            | ✅     |
+| First Unique Character                  | HashMap     | Hashing                   | ✅     |
+| Implement strStr()                      | String      | Brute Force               | ✅     |
+| Container with most water               | Array       | Two Pointer               | ✅     |
+| Check anagram                           | String      | Hashing frequency         | ✅     |
+| Interrsection Of ArrayII                | HashMap     | Hashing frequency         | ✅     |
+| Longest Substring Without Repeat        | String      | Sliding Window            | ✅     |
+| Longest Reapeating Character            | String      | Sliding Window            | ✅     |
+| Recursion                               | Recursion   | Recursion                 | ✅     |
+| Median of Two Sorted Arrays             | Array       | Binary Search             | ✅     |
+| Fibonacci                               | Recursion   | Recursion                 | ✅     |
+|  Remove Duplicates from Sorted Array II | Array       | Two Pointer               | ✅     |
 
 *(This list will grow as more problems are added)*
 
