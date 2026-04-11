@@ -63,6 +63,7 @@ src/
 │
 ├── recursion/ # Recursion problems
 │ ├── Fibonacci.java
+│ ├── PowerOfTwo.java
 │ └── Factorial.java
 │
 └── trees/ # Tree problems
@@ -94,7 +95,8 @@ src/
 | Recursion                               | Recursion   | Recursion                 | ✅     |
 | Median of Two Sorted Arrays             | Array       | Binary Search             | ✅     |
 | Fibonacci                               | Recursion   | Recursion                 | ✅     |
-|  Remove Duplicates from Sorted Array II | Array       | Two Pointer               | ✅     |
+| Remove Duplicates from Sorted Array II  | Array       | Two Pointer               | ✅     |
+| Power of two                            | Recursion   | Recursion                 | ✅     |
 
 *(This list will grow as more problems are added)*
 

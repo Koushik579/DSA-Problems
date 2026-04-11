@@ -4,6 +4,7 @@ import dsa.problems.arrays.*;
 import dsa.problems.hashMap.*;
 import dsa.problems.recursion.Factorial;
 import dsa.problems.recursion.Fibonacci;
+import dsa.problems.recursion.PowerOfTwo;
 import dsa.problems.set.HappyNumber;
 import dsa.problems.string.*;
 
@@ -118,6 +119,16 @@ public class Main {
         TwoDuplicates twoDuplicates = new TwoDuplicates();
         System.out.println("**====Two Duplicate====**");
         System.out.println("Result : "+twoDuplicates.findNewLength(new int[]{0, 0, 1, 1, 1, 1, 2, 3, 3}));
+        System.out.println("**======================================================**");
+
+        SubArraySum subArraySum = new SubArraySum();
+        System.out.println("**====Subarray sum====**");
+        System.out.println("Result : "+subArraySum.sumArray(new int[] {1, 1, 1},2));
+        System.out.println("**======================================================**");
+
+        PowerOfTwo powerOfTwo = new PowerOfTwo();
+        System.out.println("**====Power Of Two====**");
+        System.out.println("Result : "+powerOfTwo.isPowerOfTwo(8));
         System.out.println("**======================================================**");
 
     }
