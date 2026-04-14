@@ -131,5 +131,9 @@ public class Main {
         System.out.println("Result : "+powerOfTwo.isPowerOfTwo(8));
         System.out.println("**======================================================**");
 
+        RotateArray rotateArray = new RotateArray();
+        System.out.println("**====Rotate array====**");
+        System.out.println("Result : "+ Arrays.toString(rotateArray.rotatedArray(new int[]{1, 2, 3, 4, 5, 6, 7},3)));
+        System.out.println("**======================================================**");
     }
 }

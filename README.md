@@ -36,6 +36,7 @@ src/
 | ├── BuyStock.java
 | ├── MedianOfTwoSortedArray.java
 | ├── TwoDuplicate.java
+| ├── RotateArray.java
 | └── MostWater.java
 |
 ├── string/ # String problems
@@ -97,6 +98,7 @@ src/
 | Fibonacci                               | Recursion   | Recursion                 | ✅     |
 | Remove Duplicates from Sorted Array II  | Array       | Two Pointer               | ✅     |
 | Power of two                            | Recursion   | Recursion                 | ✅     |
+| Rotate Array                            | Array       | Reversal Algorithm        | ✅     |
 
 *(This list will grow as more problems are added)*
 
